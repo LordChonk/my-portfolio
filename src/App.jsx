@@ -8,7 +8,7 @@ import ProgExp from "./pages/ProgExp.jsx";
 
 function App() {
   return(
-    <Router>
+    <Router basename="/my-portfolio/">
       <Header />
       <Routes>
         <Route path="/home" element={<Home />} />
