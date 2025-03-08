@@ -11,7 +11,8 @@ function App() {
     <Router>
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
+      <Route path="/" element={<Navigate to="/home" />} /> {/* Redirect to /home */}
+      <Route path="/home" element={<Home />} />
         <Route path ="/qualifications" element={<Qualifications />} />
         <Route path="/prog-exp" element={<ProgExp />} />
       </Routes>
