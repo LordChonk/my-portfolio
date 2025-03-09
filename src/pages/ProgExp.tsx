@@ -1,6 +1,6 @@
 import React from "react";
 
-function ProgExp() {
+const ProgExp: React.FC = () => {
   return (
     <div className="prog-exp-section">
       <h1>Programming Experience</h1>

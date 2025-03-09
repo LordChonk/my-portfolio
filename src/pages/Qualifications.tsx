@@ -1,6 +1,6 @@
 import React from "react";
 
-function Qualifications() {
+const Qualifications: React.FC = () => {
   return (
     <div className="quali-section">
       <h1>There is Always Something More to Learn</h1>

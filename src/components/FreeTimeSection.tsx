@@ -1,6 +1,6 @@
 import React from "react";
 
-function FreeTimeSection() {
+const FreeTimeSection: React.FC = () => {
     return (
         <div className="freetime-section">
             <div className="freetime-text">
