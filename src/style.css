@@ -5,9 +5,11 @@
     box-sizing: border-box;
 }
 
+
 body{
     background: aliceblue;
     color: #274e13; 
+    width: 100vw;
 }
 
 header{
