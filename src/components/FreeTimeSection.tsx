@@ -8,40 +8,42 @@ const FreeTimeSection: React.FC = () => {
                 <h2>Associations</h2>
             </div>
 
-            <div className="assoc-image">
-                <div className="freetime-item">
-                    <img src="images/bell206.jpg" alt="bell206" />
-                    <h3>Flygvapenmuseum Helikopter</h3>
-                    <p>Myself infront of the Agusta-Bell 206 JetRager in the care of FVMH, a non-profit association in Sweden.</p>
-                </div>
-                <div className="freetime-item">
-                    <img src="images/lineup.jpg" alt="lineup" />
-                    <h3>Flygvapenmuseum Helikopter</h3>
-                    <p>Two of the helicopters in our (FVMH) care, both Hughes 269C/Schweizer 300.</p>
-                </div>
-                <div className="freetime-item">
-                    <img src="images/cobra.jpg" alt="cobra" />
-                    <h3>American Aviation Heritage Foundation</h3>
-                    <p>A US Cobra AH-1 in the care of AAHF, a non-profit association in the United States.</p>
+            <div className="assoc-img-group">
+                <div className="assoc-image">
+                    <div className="assoc-item">
+                        <img src="images/bell206.jpg" alt="bell206" />
+                        <h3>Flygvapenmuseum Helikopter</h3>
+                        <p>Myself infront of the Agusta-Bell 206 JetRager in the care of FVMH, a non-profit association in Sweden.</p>
+                    </div>
+                    <div className="assoc-item">
+                        <img src="images/lineup.jpg" alt="lineup" />
+                        <h3>Flygvapenmuseum Helikopter</h3>
+                        <p>Two of the helicopters in our (FVMH) care, both Hughes 269C/Schweizer 300.</p>
+                    </div>
+                    <div className="assoc-item">
+                        <img src="images/cobra.jpg" alt="cobra" />
+                        <h3>American Aviation Heritage Foundation</h3>
+                        <p>A US Cobra AH-1 in the care of AAHF, a non-profit association in the United States.</p>
+                    </div>
                 </div>
             </div>
-
             <div className="freetime-text">
                 <p>This is primarily what I do that is aviation related. I am much more of an active member in FVMH
                     due to the fact that it is based in Sweden. I take more of a supportive role in AAHF. My roles in
                     FVMH is to look the part as we are striving to preserve Swedish military avaiation history, and
                     to do my part in keeping the helicopters safe to fly by performing preflight checks, among other
                     things. I am also taking my PPL.</p>
-                <h2>Sports</h2>
             </div>
+            <h2>Sports</h2>
+
 
             <div className="sport-image">
-                <div className="freetime-item">
+                <div className="sport-item">
                     <img src="images/selfie.jpg" alt="selfie" />
                     <h3>Myself Playing for Västerås Roedeers</h3>
                     <p>I was ecstatic after scoring my first touchdown.</p>
                 </div>
-                <div className="freetime-item">
+                <div className="sport-item">
                     <img src="images/team.jpg" alt="team" />
                     <h3>Västerås Team Photo</h3>
                     <p>We had several

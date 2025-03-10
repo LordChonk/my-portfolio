@@ -5,7 +5,7 @@ const AboutSection: React.FC = () => {
     <div className="about-section">
       <div className="about-text">
         <h1>About Me</h1>
-        <p>Hi, I'm Adrian Hjert, a 23-year-old ICT graduate from KTH with an interest in anything related to technology, as well as aviation and sports!</p>
+        <p>Hi, I'm <strong><em>Adrian Hjert</em></strong>, a 23-year-old ICT graduate from KTH with an interest in anything related to technology, as well as aviation and sports!</p>
       </div>
       <img src="images/cockpit.jpg" alt="cockpit" />
     </div>
