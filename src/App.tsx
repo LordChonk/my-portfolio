@@ -1,4 +1,5 @@
 import {HashRouter as Router, Route, Routes} from "react-router-dom";
+import HamburgerMenu from "./components/HamburgerMenu.tsx";
 import StartAtTop from "./components/startAtTop.tsx";
 import "./style.css";
 import Header from "./components/Header.tsx";

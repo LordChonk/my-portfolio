@@ -1,11 +1,13 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import HamburgerMenu from "./HamburgerMenu.tsx";
 
 const Header: React.FC = () => {
   return (
     <header>
       <nav>
         <div className="logo">Adrian Hjert</div>
+        <HamburgerMenu />
         <ul>
           <li>
             <NavLink 
