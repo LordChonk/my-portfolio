@@ -1,15 +1,16 @@
-import React from "react";
 import {HashRouter as Router, Route, Routes} from "react-router-dom";
+import StartAtTop from "./components/startAtTop.tsx";
 import "./style.css";
-import Header from "./components/Header.js";
-import Home from "./pages/Home.js";
-import Qualifications from "./pages/Qualifications.js";
-import ProgExp from "./pages/ProgExp.js";
+import Header from "./components/Header.tsx";
+import Home from "./pages/Home.tsx";
+import Qualifications from "./pages/Qualifications.tsx";
+import ProgExp from "./pages/ProgExp.tsx";
 
 function App() {
   return(
     <Router>
       <Header />
+      <StartAtTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path ="/qualifications" element={<Qualifications />} />

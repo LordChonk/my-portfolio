@@ -34,6 +34,7 @@ const FreeTimeSection: React.FC = () => {
                     to do my part in keeping the helicopters safe to fly by performing preflight checks, among other
                     things. I am also taking my PPL.</p>
             </div>
+            <br/>
             <h2>Sports</h2>
 
 
