@@ -20,7 +20,7 @@ const ProgExp: React.FC = () => {
           I have experience with mostly <strong>Java</strong>, followed by{" "}
           <strong>C</strong> and <strong>Elixir</strong>. Although I have also
           worked with <strong>C#</strong>, <strong>Python</strong>, <strong>HTML</strong>{" "}
-          (and <strong>CSS</strong> as a complement), <strong>MIPS Assembly</strong>, and{" "}
+          (and <strong>CSS</strong>, as well as other website development languages such as <strong>JS</strong> and <strong>TS</strong>, as a complement), <strong>MIPS Assembly</strong>, and{" "}
           <strong>SQL</strong>. I have not written lengthy code for some of these, however
           I have worked with them in some courses at KTH where I had to debug, or simply
           understand how a piece of code works in order to complete the assignment. Due to
@@ -106,7 +106,7 @@ const ProgExp: React.FC = () => {
         <p>
           I have worked with HTML in the context of the degree project, where the custom pages
           we served to the EV's browser were written in HTML and embedded in Python scripts.
-          Additionally, I made this portfolio using HTML as well as CSS for formatting.
+          Additionally, I made this portfolio, initially, using HTML as well as CSS for formatting, however I later converted it to TS. After the conversion I continued to build on it somewhat.
         </p>
         <br />
 
